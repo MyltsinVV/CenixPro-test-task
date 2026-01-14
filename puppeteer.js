@@ -3,11 +3,6 @@ import fs from 'fs'
 
 const [_1, _2, url, region] = process.argv
 
-console.log(_1)
-console.log(_2)
-console.log(url)
-console.log(region)
-
 if (!url || !region) {
   console.error('No url or region')
   process.exit()
